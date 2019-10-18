@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.swipetests.controllers.MainActivity">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            tools:context="com.example.swipetests.controllers.MainActivity">
+
+        <TextView
+                android:id="@+id/activity_main_position_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current: " />
+
+        <TextView
+                android:id="@+id/activity_main_position_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context="com.example.swipetests.controllers.MainActivity">
+
+        <TextView
+                android:id="@+id/activity_main_touch_down_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Touch down: " />
+
+        <TextView
+                android:id="@+id/activity_main_touch_down_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context="com.example.swipetests.controllers.MainActivity">
+
+        <TextView
+                android:id="@+id/activity_main_touch_up_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Touch up: " />
+
+        <TextView
+                android:id="@+id/activity_main_touch_up_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context="com.example.swipetests.controllers.MainActivity">
+
+        <TextView
+                android:id="@+id/activity_main_length_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Length: " />
+
+        <TextView
+                android:id="@+id/activity_main_touch_length_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null" />
+
+    </LinearLayout>
+</LinearLayout>
